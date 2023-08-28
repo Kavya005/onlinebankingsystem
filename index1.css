@@ -1,0 +1,86 @@
+@import url('https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+}
+.navbar{
+    padding-left: 390px;
+    align-items: center;
+   justify-content: space-around;
+    display:  flex;
+    background-color: rgba(180, 100, 100, 0.733);
+    box-shadow:4px 3px 5px #333333;
+   
+}
+.main{
+    display: flex;
+    height: 100%;
+    width: 100%;
+
+}
+.number{
+    width: 50%;
+    margin-top: 80px;
+    margin-left: 100px;
+    font-size: 20px;
+    }
+.mail{
+        width: 50%;
+        margin-top: 80px;
+        margin-left: 50px;
+        font-size: 20px;
+     
+        
+    }
+    h2{
+        margin-top: 70px;
+    }
+.logout a{
+        text-decoration: none;
+        color: black;
+        
+    }
+    .login{
+   
+        padding-left: 15px;
+        height: 50 px;
+        width:100px ;
+        background: rgb(188, 190, 191);
+        justify-content: space-evenly;
+        border-radius: 18px;
+        display: flex;
+        align-items: center;
+        color: rgb(25, 25, 25);
+        box-sizing: border-box;
+    
+    }
+    .icon{
+        display: flex;
+        font-size: 20px;
+        height: 28px;
+        width:29px;
+        border-radius: 50%;
+        background: rgb(150, 150, 158); 
+        justify-content: space-between;
+        align-items: center;
+        overflow: hidden;
+        padding-top: 16px;
+        padding-left:5px;
+        
+    }
+    .icon i{
+        
+        font-size:20px;
+        height: 28px;
+        width: 22px;
+        border-radius:60%;
+        
+    }
+.login a{
+        text-decoration: none;
+        color: black;
+    }

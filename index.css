@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    body{
+      background-color: whitesmoke;
+}
+.navbar{
+   align-items: center;
+   justify-content: space-around;
+    display:  flex;
+    background-color: rgba(180, 100, 100, 0.733);
+    box-shadow:4px 3px 5px #333333
+}
+
+.login{
+        display: flex;
+       margin-top: 14px;
+       height: 700px;
+       width: 100%;
+}
+.account{
+    background-color:rgba(180, 100, 100, 0.733) ;
+    margin-top: 18%;
+    margin-left: 5%;
+    height: 15%;
+    width: 15%;
+}
+.transfer{
+    background-color:rgba(180, 100, 100, 0.733) ;
+    margin-top: 18%;
+    margin-left: 10%;
+    height: 15%;
+    width: 15%;
+
+}
+.account a{
+    text-decoration: none;
+    color: black;
+}
+.transfer a{
+    text-decoration: none;
+    color: black;
+
+}
+.account img{
+    margin-top: 5px;
+}
+.transfer img{
+    margin-top: 5px;
+}
+.banking{
+    background-color:rgba(180, 100, 100, 0.733) ;
+    margin-top: 18%;
+    margin-left: 10%;
+    height: 15%;
+    width: 15%;
+
+}
+.banking a{
+    text-decoration:none ;
+    color: black;
+}
+.banking img{
+    margin-top: 5px;
+}
+
+.deposit{
+    background-color:rgba(180, 100, 100, 0.733) ;
+    margin-top: 18%;
+    margin-left: 10%;
+    height: 15%;
+    width: 15%;
+
+}
+.deposit a{
+    text-decoration:none ;
+    color: black;
+}
+.deposit img{
+    margin-top: 5px;
+}
